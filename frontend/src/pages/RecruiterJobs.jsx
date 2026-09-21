@@ -62,7 +62,7 @@ function RecruiterJobs() {
       setError("");
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "GET",
           headers: {
@@ -160,7 +160,7 @@ function RecruiterJobs() {
       setError("");
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "POST",
           headers: {
@@ -277,7 +277,7 @@ function RecruiterJobs() {
       setError("");
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/jobs/${editingJobId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/jobs/${editingJobId}/`,
         {
           method: "PATCH",
           headers: {
@@ -379,7 +379,7 @@ function RecruiterJobs() {
       setError("");
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/jobs/${jobId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/jobs/${jobId}/`,
         {
           method: "DELETE",
           headers: {

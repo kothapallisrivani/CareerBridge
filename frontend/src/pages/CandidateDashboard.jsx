@@ -52,7 +52,7 @@ function CandidateDashboard() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "GET",
           headers: {
@@ -98,7 +98,7 @@ function CandidateDashboard() {
       await fetchJobs();
 
       const dashboardResponse = await fetch(
-        "http://127.0.0.1:8000/api/candidates/dashboard/",
+        "https://careerbridge-4gzv.onrender.com/api/candidates/dashboard/",
         {
           method: "GET",
           headers: {
@@ -134,7 +134,7 @@ function CandidateDashboard() {
       // ==================================================
 
       const matchingResponse = await fetch(
-        "http://127.0.0.1:8000/api/matching/match/",
+        "https://careerbridge-4gzv.onrender.com/api/matching/match/",
         {
           method: "GET",
           headers: {
@@ -234,7 +234,7 @@ function CandidateDashboard() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/api/candidates/${dashboardData.profile.id}/`,
+        `https://careerbridge-4gzv.onrender.com/api/candidates/${dashboardData.profile.id}/`,
         {
           method: "PUT",
           headers: {
@@ -336,7 +336,7 @@ function CandidateDashboard() {
       );
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/resumes/",
+        "https://careerbridge-4gzv.onrender.com/api/resumes/",
         {
           method: "POST",
           headers: {
@@ -399,7 +399,7 @@ function CandidateDashboard() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/api/resumes/${resumeId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/resumes/${resumeId}/`,
         {
           method: "DELETE",
           headers: {
@@ -990,7 +990,7 @@ function CandidateDashboard() {
 
                 const resumeUrl =
                   resume.resume_file
-                    ? `http://127.0.0.1:8000${resume.resume_file}`
+                    ? `https://careerbridge-4gzv.onrender.com${resume.resume_file}`
                     : "";
 
                 const fallbackResumeName =

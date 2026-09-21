@@ -27,7 +27,7 @@ function SavedJobs() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/saved-jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/saved-jobs/",
         {
           method: "GET",
           headers: {
@@ -84,7 +84,7 @@ function SavedJobs() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/api/saved-jobs/${savedJobId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/saved-jobs/${savedJobId}/`,
         {
           method: "DELETE",
           headers: {

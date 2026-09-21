@@ -74,7 +74,7 @@ function ResetPassword() {
       // =========================================================
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/accounts/reset-password/",
+        "https://careerbridge-4gzv.onrender.com/api/accounts/reset-password/",
         {
           method: "POST",
 

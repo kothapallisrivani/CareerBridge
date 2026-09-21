@@ -39,7 +39,7 @@ function AdminRecruiters() {
     }
 
     fetch(
-      "http://127.0.0.1:8000/api/accounts/admin-recruiters/",
+      "https://careerbridge-4gzv.onrender.com/api/accounts/admin-recruiters/",
       {
         method: "GET",
         headers: {

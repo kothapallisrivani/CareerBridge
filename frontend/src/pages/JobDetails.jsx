@@ -244,7 +244,7 @@ function JobDetails() {
   ) => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/candidates/",
+        "https://careerbridge-4gzv.onrender.com/api/candidates/",
         {
           method: "GET",
           headers: {
@@ -305,7 +305,7 @@ function JobDetails() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/api/jobs/${id}/`,
+        `https://careerbridge-4gzv.onrender.com/api/jobs/${id}/`,
         {
           method: "GET",
           headers: {
@@ -366,7 +366,7 @@ function JobDetails() {
   ) => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/candidates/",
+        "https://careerbridge-4gzv.onrender.com/api/candidates/",
         {
           method: "GET",
           headers: {
@@ -415,7 +415,7 @@ function JobDetails() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/saved-jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/saved-jobs/",
         {
           method: "GET",
           headers: {
@@ -468,7 +468,7 @@ function JobDetails() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/applications/",
+        "https://careerbridge-4gzv.onrender.com/api/applications/",
         {
           method: "POST",
           headers: {
@@ -541,7 +541,7 @@ function JobDetails() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/saved-jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/saved-jobs/",
         {
           method: "POST",
           headers: {

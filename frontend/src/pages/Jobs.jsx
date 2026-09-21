@@ -39,7 +39,7 @@ function Jobs() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "GET",
           headers: {
@@ -86,7 +86,7 @@ function Jobs() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/saved-jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/saved-jobs/",
         {
           method: "GET",
           headers: {
@@ -187,7 +187,7 @@ function Jobs() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/saved-jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/saved-jobs/",
         {
           method: "POST",
           headers: {

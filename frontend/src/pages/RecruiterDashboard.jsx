@@ -178,7 +178,7 @@ function RecruiterDashboard() {
       setLoading(true);
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/recruiter-applicants/${recruiterId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/recruiter-applicants/${recruiterId}/`,
         {
           method: "GET",
           headers: {
@@ -246,7 +246,7 @@ function RecruiterDashboard() {
       setJobsLoading(true);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "GET",
           headers: {
@@ -323,7 +323,7 @@ function RecruiterDashboard() {
       setError("");
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/application-status/${applicationId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/application-status/${applicationId}/`,
         {
           method: "PATCH",
           headers: {
@@ -506,7 +506,7 @@ function RecruiterDashboard() {
       };
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/jobs/",
+        "https://careerbridge-4gzv.onrender.com/api/jobs/",
         {
           method: "POST",
 
@@ -710,7 +710,7 @@ function RecruiterDashboard() {
       };
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/jobs/${editingJobId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/jobs/${editingJobId}/`,
         {
           method: "PATCH",
 
@@ -837,7 +837,7 @@ function RecruiterDashboard() {
       setError("");
 
       const response = await fetch(
-        `http://127.0.0.1:8000/api/jobs/${jobId}/`,
+        `https://careerbridge-4gzv.onrender.com/api/jobs/${jobId}/`,
         {
           method: "DELETE",
 
@@ -907,7 +907,7 @@ function RecruiterDashboard() {
     const resumeUrl =
       resumeFile.startsWith("http")
         ? resumeFile
-        : `http://127.0.0.1:8000${resumeFile}`;
+        : `https://careerbridge-4gzv.onrender.com${resumeFile}`;
 
     window.open(
       resumeUrl,

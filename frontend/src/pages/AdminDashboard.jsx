@@ -38,7 +38,7 @@ function AdminDashboard() {
     // ==========================================
 
     fetch(
-      "http://127.0.0.1:8000/api/accounts/admin-dashboard/",
+      "https://careerbridge-4gzv.onrender.com/api/accounts/admin-dashboard/",
       {
         method: "GET",
         headers: {
