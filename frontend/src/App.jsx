@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -106,7 +106,7 @@ function Home() {
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <Routes>
 
@@ -210,7 +210,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
